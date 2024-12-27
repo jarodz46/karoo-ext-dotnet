@@ -15,10 +15,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace karooextlink.Classes
+namespace karooext.dotnet.Classes
 {
 
-    public class Listener<T> : KarooSystemListener where T : Java.Lang.Object
+    internal class Listener<T> : KarooSystemListener where T : Java.Lang.Object
     {
         Consumer<T> consumer;
         string packageName;

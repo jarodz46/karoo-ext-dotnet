@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace karooextlink.Classes
+namespace karooext.dotnet.Classes
 {
-    public class Func1<T> : Java.Lang.Object, Kotlin.Jvm.Functions.IFunction1 where T : Java.Lang.Object
+    internal class Func1<T> : Java.Lang.Object, Kotlin.Jvm.Functions.IFunction1 where T : Java.Lang.Object
     {
 
         private readonly Action<T> _callback;
@@ -24,7 +24,7 @@ namespace karooextlink.Classes
         }
     }
 
-    public class Func0 : Java.Lang.Object, Kotlin.Jvm.Functions.IFunction0
+    internal class Func0 : Java.Lang.Object, Kotlin.Jvm.Functions.IFunction0
     {
 
         private readonly Action _callback;

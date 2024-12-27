@@ -12,9 +12,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace karooextlink.Classes
+namespace karooext.dotnet.Classes
 {
-    public class Consumer<T> : IHandler.Stub where T : Java.Lang.Object
+    internal class Consumer<T> : IHandler.Stub where T : Java.Lang.Object
     {
         Action<string>? onError;
         Action? onComplete;

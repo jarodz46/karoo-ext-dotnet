@@ -1,5 +1,5 @@
 ﻿using IO.Hammerhead.Karooext.Models;
-using karooextlink.Classes;
+using karooext.dotnet.Classes;
 using Kotlinx.Serialization.Json;
 using System;
 using System.Collections.Generic;
