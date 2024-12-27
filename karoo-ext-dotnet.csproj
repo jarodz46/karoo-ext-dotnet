@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net9.0-android35.0</TargetFramework>
+    <SupportedOSPlatformVersion>21</SupportedOSPlatformVersion>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+  <ItemGroup>
+    <AndroidLibrary Include="karoo-ext-1.1.1.aar" Manifest="karoo-ext-1.1.1.pom" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Digifais.Xamarin.JakeWharton.Timber" Version="5.0.1.4" JavaArtifact="com.jakewharton.timber:timber:5.0.1" />
+    <PackageReference Include="Org.Jetbrains.Kotlinx.KotlinxSerializationJson" Version="1.6.3.1" JavaArtifact="org.jetbrains.kotlinx:kotlinx-serialization-json:1.6.3" />
+    <PackageReference Include="Xamarin.AndroidX.AppCompat" Version="1.7.0.4" />
+    <PackageReference Include="Xamarin.AndroidX.Core.Core.Ktx" Version="1.15.0.1" />
+    <PackageReference Include="Xamarin.Kotlin.StdLib" Version="2.0.21.1" />
+    <PackageReference Include="Xamarin.Kotlin.StdLib.Common" Version="2.0.21.1" />
+    <PackageReference Include="Xamarin.KotlinX.Serialization.Core" Version="1.6.3.3" />
+    <PackageReference Include="Xamarin.KotlinX.Serialization.Core.Jvm" Version="1.6.3.3" />
+  </ItemGroup>
+</Project>

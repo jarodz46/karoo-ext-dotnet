@@ -1,0 +1,14 @@
+﻿<metadata>
+  <!--
+  This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
+  
+  This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
+ 
+  <attr path="/api/package[@name='io.hammerhead.karooext']/class[@name='KarooSystemService']/method[@name='addConsumer' and count(parameter)=3 and parameter[1][@type='kotlin.jvm.functions.Function1&lt;? super java.lang.String, kotlin.Unit&gt;'] and parameter[2][@type='kotlin.jvm.functions.Function0&lt;kotlin.Unit&gt;'] and parameter[3][@type='kotlin.jvm.functions.Function1&lt;? T, kotlin.Unit&gt;']"  name="managedName">AddConsumerLambda</attr>
+  
+ -->
+  <add-node path="/api/package[@name='kotlinx.serialization.json']/class[@name='Json']"  />
+ 
+</metadata>
