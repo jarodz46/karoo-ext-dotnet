@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace karooext.dotnet.Classes
 {
-    internal class Func1<T> : Java.Lang.Object, Kotlin.Jvm.Functions.IFunction1 where T : Java.Lang.Object
+    public class Func1<T> : Java.Lang.Object, Kotlin.Jvm.Functions.IFunction1 where T : Java.Lang.Object
     {
 
         private readonly Action<T> _callback;
@@ -24,7 +24,7 @@ namespace karooext.dotnet.Classes
         }
     }
 
-    internal class Func0 : Java.Lang.Object, Kotlin.Jvm.Functions.IFunction0
+    public class Func0 : Java.Lang.Object, Kotlin.Jvm.Functions.IFunction0
     {
 
         private readonly Action _callback;
